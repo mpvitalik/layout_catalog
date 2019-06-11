@@ -29,7 +29,6 @@ body {
   font-size: 12px;
   font-weight: 500;
 }
-
 .menu__link {
   position: relative;
   display: block;
@@ -39,11 +38,9 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
-
 .menu__item:not(:last-child) {
   margin-right: 20px;
 }
-
 .menu__link:hover {
   color: #00acdc;
 }
@@ -71,13 +68,11 @@ body {
   grid-gap: 50px 48px;
   margin-bottom: 78px;
 }
-
 @media (min-width: 1024px) {
   .catalog {
     padding: 0 40px;
   }
 }
-
 @media (min-width: 1200px) {
   .catalog {
     padding: 0 128px;
@@ -90,49 +85,42 @@ body {
   line-height: 13px;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
-  padding: 30px 15px 15px;
+  padding: 30px 14px 15px;
 }
-
 .card__img {
   display: block;
   width: 160px;
   height: 134px;
   margin: 0 auto 45px;
 }
-
 .card__product-name {
   font-size: 12px;
   font-weight: 500;
   line-height: 15px;
   margin-bottom: 5px;
 }
-
 .card__product-code {
   font-size: 11px;
   line-height: 13px;
   margin-bottom: 15px;
 }
-
 .card__rewiew-containet {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
 }
-
 .card__price {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   margin-bottom: 20px;
 }
-
 .card__price-value {
   font-size: 16px;
   font-weight: bold;
   line-height: 19px;
 }
-
 .card__button {
   display: block;
   width: 170px;
@@ -149,7 +137,6 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
-
 .card__button:hover {
   background-color: #fff;
   color: #00acdc;
@@ -158,30 +145,24 @@ body {
 .rating {
   display: flex;
 }
-
 .rating__star {
   width: 15px;
   height: 15px;
   margin-right: 4px;
   background: url(images/star.svg) center no-repeat;
 }
-
 .rating--1 .rating__star:nth-child(-n+1) {
   background-image: url(images/star-active.svg);
 }
-
 .rating--2 .rating__star:nth-child(-n+2) {
   background-image: url(images/star-active.svg);
 }
-
 .rating--3 .rating__star:nth-child(-n+3) {
   background-image: url(images/star-active.svg);
 }
-
 .rating--4 .rating__star:nth-child(-n+4) {
   background-image: url(images/star-active.svg);
 }
-
 .rating--5 .rating__star:nth-child(-n+5) {
   background-image: url(images/star-active.svg);
 }
